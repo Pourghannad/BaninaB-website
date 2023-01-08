@@ -1,0 +1,40 @@
+.each-icon-with-description {
+    display: inline-block;
+    position: relative;
+}
+.each-icon-with-description .icon-with-description-icon {
+    background-repeat: no-repeat;
+    background-size: calc(95%);
+    background-position: center center;
+    opacity: .9875;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0, 0.36, 0.76, -0.2);
+    transform-origin: center center;
+    transform: translate3d(0,0,0);
+    margin: 0;
+}
+.each-icon-with-description .icon-with-description-description {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)scale(.875);
+    color: #fff;
+    opacity: 0;
+    line-height: 1em;
+    transition-property: opacity,transform,line-height;
+    transition-delay: 175ms;
+    transition-duration: 100ms;
+    font-family: OpenSans , Vazir;
+    font-size: .8975em;
+}
+.each-icon-with-description:hover .icon-with-description-icon {
+    filter: blur(3px);
+    opacity: .8;
+
+}
+.each-icon-with-description:hover .icon-with-description-description {
+    opacity: 1;
+    transform: translate(-50%,-50%)scale(1);
+    line-height: 1.78475em;
+}

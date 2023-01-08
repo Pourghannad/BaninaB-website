@@ -1,0 +1,428 @@
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 12em);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    margin-right: 0;
+}
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .main-box {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    margin-right: 45px;
+    bottom: 0;
+    top: 0;
+}
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .main-box .main-service-logo svg {
+    overflow: visible;
+}
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .main-box .main-service-logo {
+    width: calc(50% - 1.25em);
+    height: calc(50% - 2em);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: -3em;
+    margin: auto;
+    transform: scale(1)translate3d(0,0,0);
+}
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container.service-animation-go .main-service-logo {
+    animation: .8s 2000ms infinite beatHeart;
+}
+
+@keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.05);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation {
+    position: absolute;
+    top: 0;
+    left: 2.4375em;
+    width: calc(100% + 3em);
+    height: 100%;
+}
+
+.service-introduction-animation-container .round-icon-animation .each-round-icon-animation {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    transform: translateX(-220px)translateY(250px)translateZ(0);
+    transition-property: transform,opacity;
+    transition-duration: 700ms;
+    opacity: 0;
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation {
+    opacity: 1;
+    transition: all 700ms;
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.cloud {
+    transform: translateX(-60px)translateY(130px);
+    background-image: url('/img/cloud.png');
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.location {
+    transform: translateX(-40px)translateY(306px);
+    background-image: url('/img/location-service.png');
+}
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.wifi {
+    transform: translateX(-140px)translateY(420px);
+    background-image: url('/img/wifi.png');
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.lamp {
+    transform: translateX(-320px)translateY(415px);
+    background-image: url('/img/lamp.png');
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.lock {
+    transform: translateX(-420px)translateY(285px);
+    background-image: url('/img/lock.png');
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.bell {
+    transform: translateX(-385px)translateY(110px);
+    background-image: url('/img/bell.png');
+}
+
+.service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.server {
+    transform: translateX(-230px)translateY(35px);
+    background-image: url('/img/db.png');
+}
+
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation:before,
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation:after,
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation span:before,
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation span:after {
+    position: absolute;
+    font-family: OpenSans;
+    font-size: 4px;
+    color:#fff;
+    transform: translateZ(0);
+    opacity: 0;
+}
+
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation:before,
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation:after {
+    content: '0';
+}
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation span:before,
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation span:after {
+    content: '1';
+}
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.cloud:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.cloud:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.cloud span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.cloud span:after {
+    animation: dots-round-icon-animation-cloud 3100ms linear 1300ms infinite;
+}
+ .service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.location:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.location:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.location span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.location span:after {
+    animation: dots-round-icon-animation-cloud-location 3150ms linear 1000ms  infinite;
+}
+
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.wifi:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.wifi:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.wifi span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.wifi span:after {
+    animation: dots-round-icon-animation-wifi 3150ms linear 2700ms infinite;
+}
+
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lamp:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lamp:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lamp span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lamp span:after {
+    animation: dots-round-icon-animation-lamp 2875ms linear 900ms infinite;
+}
+
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lock:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lock:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lock span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.lock span:after {
+    animation: dots-round-icon-animation-lock 2700ms linear 1700ms infinite;
+}
+
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.bell:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.bell:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.bell span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.bell span:after {
+    animation: dots-round-icon-animation-bell 3150ms linear 750ms infinite;
+}
+
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.server:after,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.server:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.server span:before,
+.service-introduction-animation-container.service-animation-go .round-icon-animation .each-round-icon-animation.server span:after {
+    animation: dots-round-icon-animation-server 2875ms linear 2000ms infinite;
+}
+
+@keyframes dots-round-icon-animation-cloud {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(-155px, 95px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform: translate(-155px, 95px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(-215px, 110px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(-215px, 110px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-390px, 185px);
+        color: #24d05d;
+    }
+}
+@keyframes dots-round-icon-animation-cloud-location {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(-170px, -60px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform: translate(-170px, -60px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(-200px, -90px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(-200px, -90px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-215px, -265px);
+        color: #24d05d;
+    }
+
+}
+@keyframes dots-round-icon-animation-wifi {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(-75px, -155px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform:translate(-75px, -155px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(-100px, -210px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(-100px, -210px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-110px, -380px);
+        color: #24d05d;
+    }
+
+}
+@keyframes dots-round-icon-animation-lamp {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(85px, -140px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform: translate(85px, -140px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(60px, -200px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(60px, -200px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-85px, -295px);
+        color: #24d05d;
+    }
+}
+@keyframes dots-round-icon-animation-lock {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(140px, -45px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform: translate(140px, -45px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(205px, -60px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(205px, -60px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(350px, -135px);
+        color: #24d05d;
+    }
+}
+@keyframes dots-round-icon-animation-bell {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(120px, 105px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform: translate(120px, 105px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(170px, 155px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(170px, 155px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(225px, 330px);
+        color: #24d05d;
+    }
+
+}
+@keyframes dots-round-icon-animation-server {
+    5% {
+        opacity: 1;
+        color: #ffffff;
+    }
+    40% {
+        opacity: 1;
+        transform: translate(-10px, 175px);
+        color: #ffffff;
+    }
+    41% {
+        opacity: 0;
+        transform: translate(-10px, 175px);
+        color: #24d05d;
+    }
+    55% {
+        opacity: 0;
+        transform: translate(-5px, 245px);
+        color: #24d05d;
+    }
+    56% {
+        opacity: 1;
+        transform: translate(-5px, 245px);
+        color: #24d05d;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-110px, 400px);
+        color: #24d05d;
+    }
+}
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation:before {
+    transform: translate(-9px, 10px);
+}
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation:after {
+    transform: translate(-36px, 20px);
+}
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation span:after {
+    transform: translate(-23px, 33px);
+}
+
+.service-page .main-section-container .service-page-content .service-introduction-section .service-introduction-animation-container .round-icon-animation .each-round-icon-animation span:before {
+    transform: translate(-14px, 27px);
+}
+.for-service-animation {
+    transition: all 500ms;
+    transform-origin: center center;
+}

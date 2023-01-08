@@ -1,0 +1,93 @@
+.not-found-section {
+    min-height: 35em;
+}
+
+.not-found-section .website-container {
+    height: calc(100% - 4em);
+    margin-top: 1em;
+}
+.not-found-section .not-found-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    right: 0;
+}
+.not-found-section .not-found-content .not-found-element {
+    margin-bottom: 50px;
+}
+.not-found-section .not-found-content .not-found-element svg {
+    width: 90%;
+    height: 205px;
+}
+.not-found-section .not-found-content .goto-home-page {
+    font-size: .8425em;
+    padding: 0.4775em 1.15em;
+}
+.not-found-section .not-found-content .not-found-description {
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 55px;
+    padding: 0 2em;
+    line-height: 1.5em;
+}
+.not-found-section .not-found-content .goto-home-page .icon-in-trc {
+    display: none;
+}
+.not-found-section .not-found-content .goto-home-page .title-in-trc {
+    margin-right: 0;
+}
+.not-found-section .not-found-content .not-found-element svg path {
+    fill: #060f18;
+    stroke: rgba(24, 157, 90, 0.65);
+    stroke-linecap: butt;
+    stroke-linejoin: round;
+    stroke-width: 1px;
+    animation-duration: 8750ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 700ms;
+}
+.not-found-section .not-found-content .not-found-element svg path:not(.st1) {
+    animation-name: not-found-element-one-animation;
+    stroke-dasharray: 620px;
+    stroke-dashoffset: 620px;
+}
+
+.not-found-section .not-found-content .not-found-element svg path.st1 {
+    animation-name: not-found-element-two-animation;
+    stroke-dasharray: 232px;
+    stroke-dashoffset: 232px;
+}
+
+@keyframes not-found-element-one-animation {
+    0% {
+        stroke-dashoffset: 620px;
+    }
+    35% {
+        stroke-dashoffset: 0px;
+    }
+    50% {
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        stroke-dashoffset: -620px;
+    }
+}
+
+@keyframes not-found-element-two-animation {
+    0% {
+        stroke-dashoffset: 232px;
+    }
+    35% {
+        stroke-dashoffset: 0px;
+    }
+    50% {
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        stroke-dashoffset: -232px;
+    }
+}

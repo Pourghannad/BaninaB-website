@@ -1,0 +1,138 @@
+.solutuions-static-pages-content {
+    position: relative;
+    z-index: 1;
+    padding-top: 2em;
+}
+
+.solutuions-static-pages-content h1 {
+    color: #179d5a;
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: .03125em;
+    margin-bottom: 1em;
+}
+
+
+.solutuions-static-pages-content .content-basic-image-box-container .slider-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.solutuions-static-pages-content .content-basic-image-box-container {
+    position: relative;
+    height: 20em;
+    width: 61em;
+    margin: auto;
+}
+
+.solutuions-static-pages-content .content-basic-image-box-container img {
+    display: inline-block;
+    vertical-align: middle !important;
+    max-width: 50%
+}
+
+.solutuions-static-pages-content .content-basic-image-box-container p {
+    display: inline-block;
+    max-width: 36%;
+    color: #fff;
+    line-height: 1.8em;
+    vertical-align: middle;
+    margin-right: 4em;
+    direction: rtl;
+}
+
+.solutuions-static-pages-content .main-introduction-section {
+    width: 676px;
+    margin: auto;
+    max-width: 100%;
+}
+.solutuions-static-pages-content .main-introduction-section img {
+    max-width: 100%;
+}
+.solutuions-static-pages-content .main-introduction-section p {
+    color: #fff;
+    line-height: 1.8em;
+    vertical-align: middle;
+    margin-top: 2em;
+}
+
+.solutuions-static-pages-content .solutuions-content-slider-container {
+    display: inline-block;
+    margin: 2.5em 1em;
+    background: #060f16;
+    padding: 3em 1em 3em 1em;
+    border: 1px solid #162837;
+    width: 100%;
+}
+
+.solutuions-static-pages-content .solutuions-content-slider-container * {
+    direction: ltr;
+}
+
+.content-basic-image-box-container .solutuions-content-slider-container {
+    margin-top: 3em;
+}
+
+.solutuions-static-pages-content .carousel .slide {
+    background: transparent !important;
+    min-height: 23em;
+    flex-flow: unset !important;
+    flex-direction: unset !important;
+}
+.solutuions-static-pages-content .carousel .slide img {
+    max-height: 31em;
+    width: auto !important;
+}
+.solutuions-static-pages-content .carousel .control-arrow {
+    background: transparent !important;
+}
+.solutuions-static-pages-content h3 {
+    color: #179d5a;
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: .03125em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+.each-benefit {
+    margin-bottom: 3em;
+}
+.each-benefit p {
+    color: #fff;
+    margin: auto;
+    direction: rtl !important;
+    margin-bottom: 1.5em;
+    width: 61%;
+    font-size: 1.1em;
+    line-height: 1.875em;
+}
+.each-benefit img {
+    width: 80% !important;
+}
+
+@media screen and (max-width: 84em) {
+    .solutuions-static-pages-content .content-basic-image-box-container {
+        width: 42em;
+    }
+    .solutuions-static-pages-content .content-basic-image-box-container p {
+        margin-right: 0em;
+        display: block;
+        max-width: 100% !important;
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    .solutuions-static-pages-content .content-basic-image-box-container img {
+        max-height: 14em;
+    }
+}
+@media screen and (max-width: 67em) { 
+    .solutuions-static-pages-content .content-basic-image-box-container {
+        width: 95%;
+    }
+    .solutuions-static-pages-content .carousel .slide img {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,74 @@
+.logo-container {
+    position: relative;
+    display: inline-block;
+}
+.logo-container .under-development-icon {
+    position: absolute;
+    left: -26px;
+    top: 13px;
+    width: 14px;
+    height: 14px;
+    background-image: url('/img/pick.svg');
+    cursor: pointer;
+    animation-name: under-development-animation;
+    animation-duration: 1000ms;
+    transform: rotate(0deg);
+    animation-iteration-count: infinite;
+}
+.logo-container .under-development-description {
+    color: #fff;
+    font-size: 10px;
+    position: absolute;
+    left: -125px;
+    top: 40px;
+    width: 11.5em;
+    direction: ltr;
+    text-align: center;
+    line-height: 16px;
+    background: rgba(255, 255, 255, 0.125);
+    padding: 0.375em 0.75em;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 150ms;
+}
+.logo-container .under-development-icon:hover ~ .under-development-description {
+    opacity: 1;
+    visibility: visible;
+}
+.logo-container .baninab-logo {
+    width: 5.75em;
+    height: 4.8125em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo-container .baninab-logo svg {
+    width: 100%;
+    height: 100%;
+}
+.logo-container .baninab-logo-type {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    font-size: 1.625em;
+    word-spacing: 0.02725em;
+    text-shadow: -1px 1px 7px #000000;
+    letter-spacing: .5px;
+    margin-right: 1em;
+    position: relative;
+}
+
+@keyframes under-development-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.blog-header .logo-container {
+    cursor: pointer;
+}

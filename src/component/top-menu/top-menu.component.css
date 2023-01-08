@@ -1,0 +1,44 @@
+.menu-list {
+    position: absolute;
+    left: 5.625em;
+    top: 4.1935em;
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 100ms;
+}
+
+.active-menu-list .menu-list {
+    visibility: visible;
+    opacity: 1;
+    left: 8.75em;
+}
+
+.active-menu-list .menu-list li:not(:last-child),
+.active-menu-list .menu-list li:not(:first-child) {
+    margin: 0 0.4375em;
+}
+
+.menu-list li a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.menu-list li a:hover {
+    color: #1ab367;
+    text-shadow: 0 0 1.625em #107141;
+}
+
+.menu-list li:not(:last-child),
+.menu-list li:not(:first-child) {
+    margin: 0 0em;
+}
+
+.menu-list li {
+    display: inline-block;
+    transition: all 100ms;
+}

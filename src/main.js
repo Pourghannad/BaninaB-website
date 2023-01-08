@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Switch , Redirect } from "react-router-dom";
+import {Route, Switch , Redirect, HashRouter  } from "react-router-dom";
 import ArchiveComponent from "./page/archive/archive.component"
 import SingleArticle from "./page/single-article/single-article.component"
 import BlogHeader from './component/blog-header/blog-header.component'
@@ -17,7 +17,7 @@ import './translate/assets/multiLanguage.scss'
 class MainComponent extends React.Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
         <Route exact key="1" path="/" render={(props) =>
              <Redirect to="/fa"/>
@@ -119,7 +119,7 @@ class MainComponent extends React.Component {
              <Redirect to="/fa/blog"/>
           } />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 }

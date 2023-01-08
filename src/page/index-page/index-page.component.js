@@ -28,7 +28,10 @@ class IndexPage extends React.Component {
   intervalStart = null;
   changeLanguageHandleClick(toChangeLanguage) {
     if (currentLanguage !== toChangeLanguage) {  
-      window.location.replace(`/${toChangeLanguage}`)
+      window.location.replace(`#/${toChangeLanguage}`);
+      setTimeout(() => {
+        window.location.reload();
+      }, 250);
   }
 }
   headerInterval() {

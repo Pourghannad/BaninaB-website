@@ -29,7 +29,7 @@ class SearchBox extends React.Component {
         //     this.setState({backgroundImageNumber : Math.floor(Math.random() *  this.state.imagesCount+1)})
         // },60000)
         return (
-            <div className="search-box-main-container" style={{backgroundImage : `url(${window.location.origin}/img/search/${this.state.backgroundImageNumber}.jpg)`}}>
+            <div className="search-box-main-container" style={{backgroundImage : `url('https://pourghannad.github.io/BaninaB-website/img/search/${this.state.backgroundImageNumber}.jpg')`}}>
                 <div className="search-input">
                 <CloseIcon selectorElementForClick=".blog-header" removeClassNameElement="active-search" />
                     <form onSubmit={this.submitSearch.bind(this)}>

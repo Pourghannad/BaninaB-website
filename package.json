@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "axios": "^0.18.0",
-    "node-sass": "^4.9.3",
+    "sass": "^1.57.1",
     "sass-loader": "^7.1.0",
     "semantic-ui-react": "^0.78.3"
   },

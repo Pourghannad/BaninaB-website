@@ -85,36 +85,36 @@
 
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.cloud {
     transform: translateX(-60px)translateY(130px);
-    background-image: url('./img/cloud.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/cloud.png');
 }
 
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.location {
     transform: translateX(-40px)translateY(306px);
-    background-image: url('./img/location-service.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/location-service.png');
 }
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.wifi {
     transform: translateX(-140px)translateY(420px);
-    background-image: url('./img/wifi.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/wifi.png');
 }
 
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.lamp {
     transform: translateX(-320px)translateY(415px);
-    background-image: url('./img/lamp.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/lamp.png');
 }
 
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.lock {
     transform: translateX(-420px)translateY(285px);
-    background-image: url('./img/lock.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/lock.png');
 }
 
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.bell {
     transform: translateX(-385px)translateY(110px);
-    background-image: url('./img/bell.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/bell.png');
 }
 
 .service-introduction-animation-container.first-scroll-animation .round-icon-animation .each-round-icon-animation.server {
     transform: translateX(-230px)translateY(35px);
-    background-image: url('./img/db.png');
+    background-image: url('https://pourghannad.github.io/BaninaB-website/img/db.png');
 }
 
 

@@ -37,7 +37,7 @@ class AlarmManagement extends React.Component {
                     <div className="solutuions-static-pages-content datacenter-monitoring">
                     <h1>{t('page__alarm__title')}</h1>
                         <div className="main-introduction-section">
-                            <img src="../img/alarm-c-1.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__title')} />
+                            <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-1.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__title')} />
                             <p>{t('page__alarm__p__1')}</p>
                         </div>
                         <br />
@@ -49,19 +49,19 @@ class AlarmManagement extends React.Component {
                             <div className="content-basic-image-box-container">
                                 <div className="slider-container">
                                     <p>{t('page__alarm__slide__1__1')}</p>
-                                    <img src="../img/alarm-c-2.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__1__1')} />
+                                    <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-2.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__1__1')} />
                                 </div>
                             </div>
                             <div className="content-basic-image-box-container">
                                 <div className="slider-container">
                                     <p>{t('page__alarm__slide__1__2')}</p>
-                                    <img src="../img/alarm-c-3.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__1__2')} />
+                                    <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-3.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__1__2')} />
                                 </div>
                         </div>
                         <div className="content-basic-image-box-container">
                         <div className="slider-container">
                             <p>{t('page__alarm__slide__1__3')}</p>
-                            <img src="../img/alarm-c-4.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__1__3')} />
+                            <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-4.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__1__3')} />
                             </div>
                         </div>
                         </Carousel>
@@ -71,19 +71,19 @@ class AlarmManagement extends React.Component {
                         <Carousel showArrows={true} showIndicators={true} autoPlay={true} transitionTime={400} interval={5000} infiniteLoop={true} showThumbs={false} showStatus={false}>
                             <div className="each-benefit">
                                 <p>{t('page__alarm__slide__2__1')}</p>
-                                <img src="../img/alarm-c-5.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__1')} />
+                                <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-5.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__1')} />
                             </div>
                             <div className="each-benefit">
                                 <p>{t('page__alarm__slide__2__2')}</p>
-                                <img src="../img/alarm-c-6.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__2')} />
+                                <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-6.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__2')} />
                             </div>
                             <div className="each-benefit">
                                 <p>{t('page__alarm__slide__2__3')}</p>
-                                <img src="../img/alarm-c-7.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__3')} />
+                                <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-7.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__3')} />
                             </div>
                             <div className="each-benefit">
                                 <p>{t('page__alarm__slide__2__4')}</p>
-                                <img src="../img/alarm-c-8.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__4')} />
+                                <img src="https://pourghannad.github.io/BaninaB-website/img/alarm-c-8.png" className="alignnone" alt={t('global__image')} title={t('page__alarm__slide__2__4')} />
                             </div>
                         </Carousel>
                         </div>

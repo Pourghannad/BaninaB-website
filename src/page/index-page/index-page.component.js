@@ -255,7 +255,7 @@ class IndexPage extends React.Component {
                   <a href="/fa/blog" target="_blank" rel="noopener noreferrer">{t('header__menu__blog')}</a>
                 </li>
                 <li className="menu-item jobs">
-                  <a target="_blank" href="/jobs">{t('header__menu__jobs')}</a>
+                  <a target="_blank" href="https://pourghannad.github.io/BaninaB-website/#/fa/jobs">{t('header__menu__jobs')}</a>
                 </li>
               </ul>
               <div className="first-page-header ui grid">
@@ -395,7 +395,7 @@ class IndexPage extends React.Component {
                 <div className="each-solution-container">
                   <h5>{t('SubSubHeader__Solutions__1')}</h5>
                   <p>{t('SubSubHeader__Solutions__1__p')}</p>
-                  <a href={`/#/${currentLanguage}/home-security`} target="_blank" className="trc-btn light-btn go-to-solution-modal">
+                  <a href={`https://pourghannad.github.io/BaninaB-website/#/${currentLanguage}/home-security`} target="_blank" className="trc-btn light-btn go-to-solution-modal">
                     <span className="title-in-trc">{t('global__learnMore')}</span>
                     <span className="icon-in-trc">
                       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" style={{shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: 'optimizeQuality'}} viewBox="0 0 0.302 0.6425000000000001" x="0px" y="0px" fillRule="evenodd" clipRule="evenodd">
@@ -409,7 +409,7 @@ class IndexPage extends React.Component {
                 <div className="each-solution-container">
                   <h5>{t('SubSubHeader__Solutions__2')}</h5>
                   <p>{t('SubSubHeader__Solutions__2__p')}</p>
-                  <a className="trc-btn light-btn go-to-solution-modal" target="_blank" href={`/#/${currentLanguage}/datacenter-monitoring`}>
+                  <a className="trc-btn light-btn go-to-solution-modal" target="_blank" href={`https://pourghannad.github.io/BaninaB-website/#/${currentLanguage}/datacenter-monitoring`}>
                     <span className="title-in-trc">{t('global__learnMore')}</span>
                     <span className="icon-in-trc">
                       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" style={{shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: 'optimizeQuality'}} viewBox="0 0 0.302 0.6425000000000001" x="0px" y="0px" fillRule="evenodd" clipRule="evenodd">
@@ -423,7 +423,7 @@ class IndexPage extends React.Component {
                 <div className="each-solution-container">
                   <h5>{t('SubSubHeader__Solutions__3')}</h5>
                   <p>{t('SubSubHeader__Solutions__3__p')}</p>
-                  <a href={`/#/${currentLanguage}/bts-monitoring`} target="_blank" className="trc-btn light-btn go-to-solution-modal">
+                  <a href={`https://pourghannad.github.io/BaninaB-website/#/${currentLanguage}/bts-monitoring`} target="_blank" className="trc-btn light-btn go-to-solution-modal">
                     <span className="title-in-trc">{t('global__learnMore')}</span>
                     <span className="icon-in-trc">
                       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" style={{shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: 'optimizeQuality'}} viewBox="0 0 0.302 0.6425000000000001" x="0px" y="0px" fillRule="evenodd" clipRule="evenodd">
@@ -437,7 +437,7 @@ class IndexPage extends React.Component {
                 <div className="each-solution-container">
                   <h5>{t('SubSubHeader__Solutions__4')}</h5>
                   <p>{t('SubSubHeader__Solutions__4__p')}</p>
-                  <a href={`/#/${currentLanguage}/alarm-system`} target="_blank" className="trc-btn light-btn go-to-solution-modal">
+                  <a href={`https://pourghannad.github.io/BaninaB-website/#/${currentLanguage}/alarm-system`} target="_blank" className="trc-btn light-btn go-to-solution-modal">
                     <span className="title-in-trc">{t('global__learnMore')}</span>
                     <span className="icon-in-trc">
                       <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" xmlSpace="preserve" version="1.1" style={{shapeRendering: 'geometricPrecision', textRendering: 'geometricPrecision', imageRendering: 'optimizeQuality'}} viewBox="0 0 0.302 0.6425000000000001" x="0px" y="0px" fillRule="evenodd" clipRule="evenodd">
